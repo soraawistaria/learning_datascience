@@ -13,3 +13,9 @@ matrix = np.array([[[1, 2, 3], [4, 5 ,6], [7, 8, 9]],
 
 print(matrix.ndim)
 print(matrix.shape)
+
+for i in matrix:
+    for j in i:
+        for k in j:
+            tambah = k + k
+            print(f"{k} + {k} = {tambah}")
