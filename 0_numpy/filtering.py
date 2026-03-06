@@ -12,3 +12,4 @@ print()
 teenagers = np.where(ages <= 18, ages, np.nan)
                     # boolean statement, our variables, replace with 'what'
 print(teenagers)
+
