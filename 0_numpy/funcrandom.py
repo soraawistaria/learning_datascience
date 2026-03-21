@@ -16,9 +16,3 @@ rendem = np.random.default_rng()
 array = np.array([1, 2, 3, 4, 5])
 rendem.shuffle(array)
 print(array)
-
-#random pick
-print()
-sahur = np.array(["mie", "telur", "nasi", "energen", "kurma", "kopi"])
-choice = rng.choice(sahur)
-print(choice)
