@@ -13,4 +13,4 @@ for call in df['Nama Panggilan']:
     call.capitalize()
 
 
-print(df.to_string())
+print(df.to_string()) #menampilkan semua data
