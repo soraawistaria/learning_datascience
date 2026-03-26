@@ -1,0 +1,1 @@
+print(df[['song_title', 'artist']].to_string)
