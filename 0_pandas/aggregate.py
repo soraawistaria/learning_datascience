@@ -5,6 +5,9 @@ import pandas as pd
 
 df = pd.read_csv('0_pandas/data_siswa_bb_tb.csv')
 
+print("\n============= COUNT =============")
+print(df.count())
+
 print("\n============= MEAN =============")
 print(df.mean(numeric_only=True))
 
@@ -17,4 +20,3 @@ print(df.min(numeric_only=True))
 print("\n============= MAX =============")
 print(df.max(numeric_only=True))
 
-#tes
